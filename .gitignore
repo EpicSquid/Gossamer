@@ -1,12 +1,48 @@
-*.class
+/download
+/eclipseBin
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+## gradle
+**/.gradle
+**/build
 
-# Package Files #
-*.jar
-*.war
-*.ear
+## ForgeGradle
+/run
+/*/run
+/*.launch
+/*/*.launch
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+## eclipse
+/eclipse
+**/.settings
+**/.metadata
+**/.classpath
+**/.project
+**/bin
+
+## intellij
+/out
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/atlassian-ide-plugin.xml
+/classes
+
+## gedit
+*~
+## most Windows editors
+*.bak
+## OSX
+.DS_Store
+
+## translation reports
+resources/assets/enderio/lang/*.lang.txt
+/ebin/
+
+## local user properties
+user.properties
+
+## temporary build files
+eiostore.jks
+
+build\.sh
